@@ -1,7 +1,7 @@
-function navBar (){
+function NavBar (){
 
     return(
-        <div className="navBar">
+        <div className="NavBar">
             <h2>
                 Mi E-comerce
             </h2>
@@ -16,4 +16,4 @@ function navBar (){
           
     );
 }
-export default navBar;
+export default NavBar;
