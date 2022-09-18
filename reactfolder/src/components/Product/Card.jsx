@@ -8,7 +8,7 @@ function Card (punctuation, price, distance,guiaName,place){
     return(
         <div className= 'card'>
             <div className='card-title'>
-                <div 'card-title-guia'>
+                <div className='card-title-guia'>
                     <p>(guiaName)</p>
                     <p>(place)</p>
                 </div>
@@ -48,10 +48,12 @@ function Card (punctuation, price, distance,guiaName,place){
                 <a href="#">Ver mas</a>
 
             </div>
-
         
         </div>
     )
+
+    export default Card;
+    
 
 
 
