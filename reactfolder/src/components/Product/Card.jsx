@@ -1,16 +1,13 @@
-function Card (punctuation, price, distance,guiaName,place){
-    let price = price; 
-    let punctuation= punctuation;
-    let distance= distance;
-    let = guiaName=guiaName;
-    let = place=place;
+import React from "react";
 
+function Card () {
+    
     return(
-        <div className= 'card'>
+        <div className= 'Card'>
             <div className='card-title'>
                 <div className='card-title-guia'>
-                    <p>(guiaName)</p>
-                    <p>(place)</p>
+                    <p>Guia Name</p>
+                    <p>Place</p>
                 </div>
 
             </div>
@@ -21,23 +18,23 @@ function Card (punctuation, price, distance,guiaName,place){
             <div className='card-detail'>
                 <div ClasName='card-detail-Puntation'>
                     <img src="" alt="" />
-                    <p>(punctuation)</p>
+                    <p> Punctuation</p>
                 </div>
                 <div ClasName='card-detail-price'>
                     <img src="" alt="" />
-                    <p>(price)</p>
+                    <p>Price</p>
                 </div>
                 <div ClasName='card-detail-distance'>
                     <img src="" alt="" />
-                    <p>(distance)</p>
+                    <p>Distance</p>
                 </div>
                 <div ClasName='card-detail-coments'>
                     <img src="" alt="" />
-                    <p>(coments)</p>
+                    <p>Coments</p>
                 </div>
                 <div ClasName='card-detail-time'>
                     <img src="" alt="" />
-                    <p>(time)</p>
+                    <p>Time</p>
                 </div>
 
             </div>
@@ -52,9 +49,7 @@ function Card (punctuation, price, distance,guiaName,place){
         </div>
     )
 
-    export default Card;
-    
-
-
 
 }
+
+export default Card;
