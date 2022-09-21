@@ -1,13 +1,13 @@
 import React from "react";
 
-function Card () {
+function Card (props) {
     
     return(
         <div className= 'Card'>
             <div className='card-title'>
                 <div className='card-title-guia'>
-                    <p>Guia Name</p>
-                    <p>Place</p>
+                    <p>{props.guiaName}</p>
+                    <p>{props.place}</p>
                 </div>
 
             </div>

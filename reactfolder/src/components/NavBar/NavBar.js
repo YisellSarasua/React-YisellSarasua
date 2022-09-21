@@ -1,9 +1,17 @@
+import{fontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCartShopping } from '@fortawesome/free-solid-svg-icons';
+
 function NavBar (){
 
     return(
+
         <div className="NavBar">
+            
+            <fontAwesomeIcon icon ={faCartShopping } /> 
+
+        
             <h2>
-                Mi E-comerce
+                Menu
             </h2>
 
             <ul>
