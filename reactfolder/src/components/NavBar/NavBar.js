@@ -1,25 +1,37 @@
-import{fontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCartShopping } from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBell, faHeartPulse, faHouse, faMessage, faPeopleGroup, } from '@fortawesome/free-solid-svg-icons';
+import "./NavBar.css";
 function NavBar (){
 
     return(
 
         <div className="NavBar">
-            
-            <fontAwesomeIcon icon ={faCartShopping } /> 
-
         
-            <h2>
-                Menu
-            </h2>
+    
+            <div className='Menu'>
+                <div>
+                <FontAwesomeIcon icon= {faBell}/>
+                </div>
 
-            <ul>
-                <li>Alert</li>
-                <li>Chat</li>
-                <li>Home</li>
-                <li>Community</li>
-            </ul>
+                <div>
+                <FontAwesomeIcon icon= {faMessage}/>
+                </div>
+
+                <div>
+                <FontAwesomeIcon icon= {faHouse}/>
+                </div>
+                
+                <div>
+                <FontAwesomeIcon icon= {faHeartPulse}/>
+                </div>
+
+                <div>
+                <FontAwesomeIcon icon= {faPeopleGroup}/>
+                </div>
+
+            </div>
+
         </div>
           
     );

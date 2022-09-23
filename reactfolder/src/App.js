@@ -24,8 +24,7 @@ function App() {
       greeting="Resultados"
       />
       <NavBar />
-      
-      <FontAwesomeIcon icon= {faCoffee}/>
+    
       
 
     </div>
