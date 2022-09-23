@@ -1,10 +1,15 @@
 import React from "react";
+import './Card.css';
+
 
 function Card (props) {
     
     return(
         <div className= 'Card'>
             <div className='card-title'>
+                <div className="card-title-avatar">
+                    <img src="" alt="" />
+                </div>
                 <div className='card-title-guia'>
                     <p>{props.guiaName}</p>
                     <p>{props.place}</p>
@@ -39,12 +44,7 @@ function Card (props) {
 
             </div>
 
-            <div className= 'card-description'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquid quibusdam eos ad quae praesentium delectus aliquam nihil ipsam obcaecati tenetur, dicta repellat iusto est at veritatis odio. Molestiae, dolor?
-                At praesentium perspiciatis et aperiam vitae, dolorem ratione nobis adipisci commodi consequuntur architecto, dolores doloribus culpa dignissimos ipsum amet reiciendis voluptates nesciunt temporibus quae ducimus rerum deserunt dolore eum? Quae.</p>
-                <a href="#">Ver mas</a>
-
-            </div>
+            
         
         </div>
     )

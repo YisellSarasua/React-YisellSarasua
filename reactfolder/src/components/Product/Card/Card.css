@@ -1,0 +1,66 @@
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    border-bottom: solid 1px black;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+
+.card-title p{
+    text-align: start; 
+}
+
+.card-title-avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(234, 231, 231);
+}
+
+
+
+.card-title-guia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 200px;
+    
+    justify-content: end;
+}
+
+.card-img{
+    height: 250px;
+    border-radius: 25px;
+    background-color: rgb(234, 231, 231);
+}
+
+.card-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-detail div{
+    display: flex;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.card-detail div img{
+   width: 30px;
+   height: 30px;
+   background-color: rgb(234, 231, 231);
+   margin-right: 5px;
+}
