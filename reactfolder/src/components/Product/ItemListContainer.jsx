@@ -12,6 +12,11 @@ function ItemListContainer(props){
             guiaName = "Peter D." 
             place= "Pasaje en las cuevas"
             />
+
+<Card
+            guiaName = "Sofia J." 
+            place= "Caminos sinuosos"
+            />
            
             </div>
         </div>
